@@ -1,0 +1,8 @@
+main ( )
+{
+int a ;
+float f ;
+A = a + f ;
+if ( a > f )
+a = f ;
+}
