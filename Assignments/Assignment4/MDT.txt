@@ -1,0 +1,14 @@
+(E,1) SET 0
+MOVER (P,2) 0
+MOVEM (P,2),(P,0)+(E,1)
+(E,1) SET (E,1)+1
+AIF ((E,1 NE (P,2)) (S,5)
+MEND(E,1) SET 0
+(E,1) SET 0
+MOVER (P,2) 0MOVEM (P,2),(P,0)+(E,1)(E,1) SET (E,1)+1
+ AIF ((E,1 NE (P,2)) (S,5)ENDMAC(E,1) SET 0
+MOVER (P,2) 0MOVEM (P,2),(P,0)+(E,1)(E,1) SET (E,1)+1
+ AIF ((E,1 NE (P,2)) (S,5)ENDMAC
+(E,1) SET 0
+MOVER (P,2) 0MOVEM (P,2),(P,0)+(E,1)(E,1) SET (E,1)+1
+ AIF ((E,1 NE (P,2)) (S,5)ENDMAC
