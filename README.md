@@ -8,3 +8,7 @@ Assignment2: Pass1 of Assembler with Literal
 Assignment3: Pass2 of Assembler with Literal
 
 Assignment4: Macro Definition 
+
+Assignment5: Macro Expansion
+
+Assignment6: C Lexical Analyzer
